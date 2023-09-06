@@ -1,5 +1,6 @@
 import './App.css';
 import Post from './Post.js';
+import BottomBar from './BottomBar.js';
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
             </div>}
           />
 
+          <BottomBar />
 
     </div>
   );
