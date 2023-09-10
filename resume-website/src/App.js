@@ -4,12 +4,29 @@ import BottomBar from './BottomBar.js';
 import Navbar from './Navbar';
 
 function App() {
+
+  
+
   return (
     <div className="App">
+      
+      <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
 
       <Navbar />
 
-      <h1 class = "font-bold text-7xl">Welcome</h1>
+      <h1 class = "font-bold text-7xl z-10">Welcome</h1>
+    
 
       <section id = "about" class = "w-11/12">  
         <Post
@@ -86,6 +103,7 @@ function App() {
       
 
       <section id = "bottom" class = "w-full"><BottomBar /></section>
+      
 
     </div>
   );
