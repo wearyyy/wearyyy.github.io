@@ -32,7 +32,7 @@ function App() {
         <Post
           head = "About"
           body = {<p>I'm currently a third year Software Engineering coop student at Carleton University. I am currently doing a 
-          coop in Shenzhen in a non-coding position. 
+          coop in Shenzhen in a social media position. 
           <br /><br />
           Most of the time I'll be busy with work or school, but during my free time I like spend time hanging out with friends and 
           listening to podcasts and essay videos.
